@@ -14,35 +14,35 @@ app.service("ClanService", function(){
   this.clanList = [{
       id: 0, name: "Ahrimanes",
       filters: ["Sabbat", "All Bloodlines", "Dark Ages"],
-      disciplines: ["Animalism", "Potence", "Spiritus"]
+      disciplines: ["Animalisme", "Puissance", "Spiritus"]
     },
     {
       id: 1, name: "Anda",
       filters: ["Independent", "All Bloodlines", "Dark Ages"],
-      disciplines: ["Animalism", "Fortitude", "Protean"]
+      disciplines: ["Animalisme", "Endurance", "Protéisme"]
     },
     {
       id: 2, name: "Assamite",
       filters: ["Thirteen", "Independent", "All Clans",
         "Low Clans", "Dark Ages"
       ],
-      disciplines: ["Celerity", "Obfuscate", "Quietus"]
+      disciplines: ["Célérité", "Occultation", "Quietus"]
     },
     {
       id: 3, name: "Baali",
       filters: ["Independent", "All Bloodlines", "Dark Ages"],
-      disciplines: ["Daimonion", "Obfuscate", "Presence"]
+      disciplines: ["Daimonion", "Occultation", "Présence"]
     },
     {
       id: 4, name: "Blood Brothers",
       filters: ["Sabbat", "All Bloodlines"],
-      disciplines: ["Fortitude", "Potence", "Sanguinus"]
+      disciplines: ["Endurance", "Puissance", "Sanguinus"]
     },
     {
       id: 5, name: "Brujah",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "High Clans", "Dark Ages"],
-      disciplines: ["Celerity", "Potence", "Presence"]
+      disciplines: ["Célérité", "Puissance", "Présence"]
     },
     {
       id: 6, name: "Caitiff",
@@ -51,7 +51,7 @@ app.service("ClanService", function(){
     }, {
       id: 7, name: "Cappadocian",
       filters: ["All Clans", "Dark Ages", "High Clans"],
-      disciplines: ["Auspex", "Fortitude", "Necromancy"]
+      disciplines: ["Auspex", "Endurance", "Nécromancie"]
     },
     {
       id: 8, name: "Children of Osiris",
@@ -61,127 +61,127 @@ app.service("ClanService", function(){
     {
       id: 9, name: "Daughters of Cacophony",
       filters: ["All Bloodlines"],
-      disciplines: ["Fortitude", "Melpominee", "Presence"]
+      disciplines: ["Endurance", "Melpominee", "Présence"]
     },
     {
       id: 10, name: "Followers of Set",
       filters: ["Thirteen", "Independent", "All Clans", "Dark Ages",
                 "Low Clans"],
-      disciplines: ["Obfuscate", "Presence", "Serpentis"]
+      disciplines: ["Occultation", "Présence", "Serpentis"]
     },
     {
       id: 11, name: "Gargoyles",
       filters: ["All Bloodlines"],
-      disciplines: ["Flight", "Fortitude", "Potence", "Visceratika"]
+      disciplines: ["Flight", "Endurance", "Puissance", "Visceratika"]
     },
     {
       id: 12, name: "Gangrel",
       filters: ["Thirteen", "Independent", "All Clans", "Low Clans",
                 "Dark Ages"],
-      disciplines: ["Animalism", "Fortitude", "Protean"]
+      disciplines: ["Animalisme", "Endurance", "Protéisme"]
     },
     {
       id: 13, name: "Giovanni",
       filters: ["Thirteen", "Independent", "All Clans", "Dark Ages"],
-      disciplines: ["Dominate", "Necromancy", "Potence"]
+      disciplines: ["Domination", "Nécromancie", "Puissance"]
     },
     {
       id: 14, name: "Harbingers of Skulls",
       filters: ["Sabbat", "All Bloodlines"],
-      disciplines: ["Auspex", "Fortitude", "Necromancy"]
+      disciplines: ["Auspex", "Endurance", "Nécromancie"]
     },
     {
       id: 15, name: "Kiasyd",
       filters: ["All Bloodlines", "Dark Ages"],
-      disciplines: ["Dominate", "Obtenebration", "Mytherceria"]
+      disciplines: ["Domination", "Obténébration", "Mytherceria"]
     },
     {
       id: 16, name: "Lamia",
       filters: ["All Bloodlines", "Dark Ages"],
-      disciplines: ["Fortitude", "Necromancy", "Potence"]
+      disciplines: ["Endurance", "Nécromancie", "Puissance"]
     },
     {
       id: 17, name: "Lasombra",
       filters: ["Thirteen", "Sabbat", "All Clans", "Sabbat (clans only)",
                 "Dark Ages", "High Clans"],
-      disciplines: ["Dominate", "Obtenebration", "Potence"]
+      disciplines: ["Domination", "Obténébration", "Puissance"]
     },
     {
       id: 18, name: "Lhiannan",
       filters: ["Independent", "All Bloodlines", "Dark Ages"],
-      disciplines: ["Animalism", "Ogham", "Presence"]
+      disciplines: ["Animalisme", "Ogham", "Présence"]
     },
     {
       id: 19, name: "Malkavian",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "Low Clans"],
-      disciplines: ["Auspex", "Dementation", "Obfuscate"]
+      disciplines: ["Auspex", "Aliénation", "Occultation"]
     },
     {
       id: 20, name: "Nagaraja",
       filters: ["All Bloodlines", "Dark Ages"],
-      disciplines: ["Auspex", "Dominate", "Necromancy"]
+      disciplines: ["Auspex", "Domination", "Nécromancie"]
     },
     {
       id: 21, name: "Noiad",
       filters: ["All Bloodlines", "Dark Ages"],
-      disciplines: ["Animalism", "Auspex", "Protean"]
+      disciplines: ["Animalisme", "Auspex", "Protéisme"]
     },
     {
       id: 22, name: "Nosferatu",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "Low Clans"],
-      disciplines: ["Animalism", "Obfuscate", "Potence"]
+      disciplines: ["Animalisme", "Occultation", "Puissance"]
     },
     {
       id: 23, name: "Old Clan Tzimisce",
       filters: ["Dark Ages, High Clans"],
-      disciplines: ["Animalism", "Auspex", "Dominate"]
+      disciplines: ["Animalisme", "Auspex", "Domination"]
     },
     {
       id: 24, name: "Ravnos",
       filters: ["Thirteen", "Independent", "All Clans", "Dark Ages",
                 "Low Clans"],
-      disciplines: ["Animalism", "Chimerstry", "Fortitude"]
+      disciplines: ["Animalisme", "Chimerstry", "Endurance"]
     },
     {
       id: 25, name: "Salubri",
       filters: ["Independent", "All Clans", "Dark Ages"],
-      disciplines: ["Auspex", "Fortitude", "Obeah", "Valeren"]
+      disciplines: ["Auspex", "Endurance", "Obeah", "Valeren"]
     },
     {
       id: 26, name: "Samedi",
       filters: ["All Bloodlines"],
-      disciplines: ["Fortitude", "Obfuscate", "Thanatosis"]
+      disciplines: ["Endurance", "Occultation", "Thanatosis"]
     },
     {
       id: 27, name: "Toreador",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "High Clans"],
-      disciplines: ["Auspex", "Celerity", "Presence"]
+      disciplines: ["Auspex", "Célérité", "Présence"]
     },
     {
       id: 28, name: "Tremere",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "Low Clans"],
-      disciplines: ["Auspex", "Dominate", "Thaumaturgy"]
+      disciplines: ["Auspex", "Domination", "Thaumaturgy"]
     },
     {
       id: 29, name: "True Brujah",
       filters: ["All Bloodlines", "Independent", "Dark Ages"],
-      disciplines: ["Potence", "Presence", "Temporis"]
+      disciplines: ["Puissance", "Présence", "Temporis"]
     },
     {
       id: 30, name: "Tzimisce",
       filters: ["Thirteen", "Sabbat", "All Clans", "Sabbat (clans only)",
                 "Dark Ages", "High Clans"],
-      disciplines: ["Animalism", "Auspex", "Vicissitude"]
+      disciplines: ["Animalisme", "Auspex", "Vicissitude"]
     },
     {
       id: 31, name: "Ventrue",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "High Clans"],
-      disciplines: ["Dominate", "Fortitude", "Presence"]
+      disciplines: ["Domination", "Endurance", "Présence"]
     }
   ];
 
