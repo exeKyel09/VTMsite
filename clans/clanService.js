@@ -164,7 +164,7 @@ app.service("ClanService", function(){
       id: 28, name: "Tremere",
       filters: ["Thirteen", "Camarilla", "All Clans",
                 "Camarilla (clans only)", "Dark Ages", "Low Clans"],
-      disciplines: ["Auspex", "Domination", "Thaumaturgy"]
+      disciplines: ["Auspex", "Domination", "Thaumaturgie"]
     },
     {
       id: 29, name: "True Brujah",

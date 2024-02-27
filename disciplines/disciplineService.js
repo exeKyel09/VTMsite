@@ -15,14 +15,14 @@ app.service("DisciplineService", ['ClanService', 'CharCreatorService', 'UglyServ
 
   this.getFreebieMode = getFreebieMode;
 
-  this.disciplineList = ["Animalism", "Auspex", "Bardo", "Celerity",
-                         "Chimerstry", "Daimonion", "Dementation",
-                         "Dominate", "Flight", "Fortitude", "Koldunic Sorcery",
-                         "Melpominee", "Mytherceria", "Necromancy", "Obeah",
-                         "Obfuscate", "Obtenebration", "Ogham", "Potence",
-                         "Presence", "Protean", "Quietus", "Sanguinus",
+  this.disciplineList = ["Animalisme", "Auspex", "Bardo", "Célérité",
+                         "Chimérie", "Daimonion", "Aliénation",
+                         "Domination", "Vol", "Endurance", "Koldun",
+                         "Melpominee", "Mytherceria", "Nécromancie", "Obeah",
+                         "Occultation", "Obténébration", "Ogham", "Puissance",
+                         "Présence", "Protéisme", "Quietus", "Sanguinus",
                          "Serpentis", "Spiritus", "Temporis", "Thanatosis",
-                         "Thaumaturgy", "Valeren", "Vicissitude", "Visceratika"];
+                         "Thaumaturgie", "Valeren", "Vicissitude", "Visceratika"];
 
   function changeDiscipline(discipline, index, prevDisc){
      this.selectedClanDisciplines[index] = new Discipline(discipline);
